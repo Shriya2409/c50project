@@ -1,0 +1,43 @@
+.header{
+    font-family: sans-serif;
+    color: white;
+}
+
+.menu{
+display: flex;
+justify-content: space-between;
+background-color: rgb(0, 255, 179);
+font-size: 20px;
+font-family: sans-serif;
+font-weight: 400;
+color: white;
+}
+
+.body{
+    background-color:rgb(0, 255, 179);
+position:relative;
+}
+
+.grid{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.grid img{
+    border:2px solid black;
+    border-radius: 50px;
+}
+
+.origami{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 310px;
+    font-family: fantasy;
+}
+
+.body p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,+50%); 
+}
